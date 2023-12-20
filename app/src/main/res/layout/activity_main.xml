@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#14CAB5"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/image_polishcow"
+        android:layout_width="0dp"
+        android:layout_height="219dp"
+        android:backgroundTint="#2F48A1"
+        android:scaleType="centerInside"
+        app:layout_constraintHeight_percent="0.3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.5"
+        app:srcCompat="@drawable/channels4_profile" />
+
+    <ImageButton
+        android:id="@+id/image_chrep"
+        android:layout_width="206dp"
+        android:layout_height="219dp"
+        android:backgroundTint="#174697"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.5"
+        app:srcCompat="@drawable/leon" />
+
+    <ImageButton
+        android:id="@+id/image_happy"
+        android:layout_width="0dp"
+        android:layout_height="219dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#2F48A1"
+        android:scaleType="centerInside"
+        app:layout_constraintHeight_percent="0.3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_polishcow"
+        app:layout_constraintWidth_percent="0.5"
+        app:srcCompat="@drawable/happy" />
+
+    <ImageButton
+        android:id="@+id/image_Kumi"
+        android:layout_width="0dp"
+        android:layout_height="219dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#2F48A1"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.3"
+        app:layout_constraintTop_toBottomOf="@+id/image_chrep"
+        app:layout_constraintWidth_percent="0.5"
+        app:srcCompat="@drawable/umi" />
+
+    <ImageButton
+        android:id="@+id/image_shumpuni"
+        android:layout_width="0dp"
+        android:layout_height="219dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="4dp"
+        android:backgroundTint="#2F48A1"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.3"
+        app:layout_constraintWidth_percent="0.5"
+        app:srcCompat="@drawable/shampu" />
+
+    <ImageButton
+        android:id="@+id/image_tarakan"
+        android:layout_width="0dp"
+        android:layout_height="219dp"
+        android:layout_marginBottom="4dp"
+        android:backgroundTint="#2F48A1"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHeight_percent="0.3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintWidth_percent="0.5"
+        app:srcCompat="@drawable/tatarstan" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
